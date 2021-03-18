@@ -21,7 +21,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.funcui.utilities.*;
 
 /**
- * @author letskodeit
+ * @author Rays
  */
 public class CustomDriver {
     private static final Logger log = LogManager.getLogger(CustomDriver.class.getName());
