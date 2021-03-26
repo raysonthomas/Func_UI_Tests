@@ -690,7 +690,7 @@ public class CustomDriver {
      */
     public String takeScreenshot(String methodName, String browserName) {
         String fileName = Util.getScreenshotName(methodName, browserName);
-        String screenshotDir = System.getProperty("user.dir") + "/screenshots/";
+        String screenshotDir = Constants.REPORTS_DIRECTORY + "//screenshots//";
         new File(screenshotDir).mkdirs();
         String path = screenshotDir + fileName;
 

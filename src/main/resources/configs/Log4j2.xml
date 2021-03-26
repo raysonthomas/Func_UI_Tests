@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
     <Properties>
         <Property name="basePath">./logs</Property>
@@ -19,10 +19,9 @@
         <Root level="trace">
             <AppenderRef ref="File"/>
         </Root>
-        <!--
-        <Logger name="com.funcui.overview" level="info" additivity="false">
-                    <AppenderRef ref="File"/>
-                </Logger>
-        -->
+
+        <Logger name="com.funcui.overview" level="info" additivity="false"> <AppenderRef ref="File"/>
+        </Logger>
+
     </Loggers>
 </Configuration>
